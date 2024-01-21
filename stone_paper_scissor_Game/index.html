@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <!-- creating container for our three choices -->
+    <div class="choices">
+        <!-- div for rock -->
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="rock image" >
+        </div>
+        <!-- div for paper -->
+        <div class="choice" id="paper">
+            <img src="./images/paper.png" alt="paper image" >
+        </div>
+        <!-- div for scissor -->
+        <div class="choice" id="scissor">
+            <img src="./images/scissors.png" alt="scissor image" >
+        </div>
+    </div>
+
+    <!-- creating an div for our scoreboard -->
+    <div class="score-board">
+        <!-- div for your score -->
+        <div class="score">
+            <!-- give id to p score becayse it needs to be updated so in order to access it we have to give it id -->
+            <p id="user-score">0</p>
+            <!-- no need to give id to this p as it will remain same -->
+            <p>You</p>
+        </div>
+        <!-- div for computer score -->
+        <div class="score">
+            <!-- give id to comp-score as it needs to be updated and needs to be accessed by js file -->
+            <p id="comp-score">0</p>
+            <!-- no need to give id to this p as it will remain same -->
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <!-- creating an div for our message container -->
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

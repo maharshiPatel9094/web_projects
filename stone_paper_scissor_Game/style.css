@@ -1,0 +1,81 @@
+/* styling for whole website */
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* styling for our h1 element */
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    text-align: center;
+    /* making text center from top */
+    line-height: 5rem;
+}
+
+/* styling for our choice container*/
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling for images */
+img{
+    height: 150px;
+    width: 150px;
+    /* to make images not shrink */
+    object-fit: cover;
+    /* maing images in round shape */
+    border-radius: 50%;
+}
+
+/* styling for choices div */
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+/* making images hover */
+.choice:hover{
+    /* to see the cursor when we hover the image */
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+/* styling for our scoreboard */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+/* styling for user and computer score */
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+/* styling for our message container */
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem; 
+}
